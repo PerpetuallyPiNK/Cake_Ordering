@@ -1,9 +1,9 @@
 class PagesController < ApplicationController
-  def Home
+  def home
 	@title = "Home"
   end
   
-  def Shop
+  def shop
 	@title = "Shop"
   end
 

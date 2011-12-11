@@ -23,7 +23,7 @@ describe PagesController do
     end
 
     it "should have the right title" do
-      get 'Shop'
+      get 'shop'
       response.should have_selector("title",
                         :content => "Cakes Galore | Shop")
     end
