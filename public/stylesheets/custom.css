@@ -1,0 +1,94 @@
+.container {
+}
+
+body {
+	background: #000000;
+}
+
+header {
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width:85%;
+}
+
+header img {
+
+}
+
+section {
+	font-size: 120%;
+	background: #00000;
+	margin-right: auto;
+	margin-left: auto;
+	width:85%;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+a {
+	color: #C5C9CC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E0B2AF;
+}
+
+a:visited {
+	color: #C5C9CC;
+}
+
+/* Navigation */
+nav {
+	float: right;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+nav ul li a:visited {
+	color: #C5C9CC;
+	padding: 0 5px;
+}
+
+nav ul li a:hover {
+	font-style: oblique;
+	color: #E0B2AF;
+}
+
+/* Sign Up Button */
+a.signup_button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 200px;
+	color: #000000;
+	background: #C5C9CC;
+	font-size: 115%;
+	font-weight: bold;
+	padding: 15px;
+}
+
+a.signup_button:hover {
+	color: #E0B2AF;
+	display: block;
+}
+
+/* Round Corners */
+.round {
+	=moz-border-radius: 10px;
+	-webkit-boder-radius: 10px;
+	border-radius: 10px;
+}

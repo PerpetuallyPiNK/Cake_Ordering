@@ -2,6 +2,7 @@ CakeOrdering::Application.routes.draw do
   get "pages/home"
   get "pages/shop"
   get "pages/account"
+  get "pages/login"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

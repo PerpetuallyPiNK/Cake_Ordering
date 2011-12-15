@@ -10,5 +10,9 @@ class PagesController < ApplicationController
   def account
 	@title = "Account"
   end
-
+  
+  def login
+	@title = "Log In"
+  end
+  
 end

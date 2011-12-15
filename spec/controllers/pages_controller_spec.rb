@@ -41,4 +41,17 @@ describe PagesController do
                         :content => "Cakes Galore | Account")
     end
   end
+  
+    describe "GET 'login'" do
+    it "should be successful" do
+      get 'login'
+      response.should be_success
+    end
+
+    it "should have the right title" do
+      get 'login'
+      response.should have_selector("title",
+                        :content => "Cakes Galore | Log In")
+    end
+  end
 end
