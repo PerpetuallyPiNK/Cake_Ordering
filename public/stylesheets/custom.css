@@ -44,6 +44,8 @@ a:visited {
 
 /* Navigation */
 nav {
+	font-sixe: 20px;
+	padding-top: 20px;
 	float: right;
 }
 
