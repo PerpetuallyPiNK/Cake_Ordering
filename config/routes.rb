@@ -1,7 +1,10 @@
 CakeOrdering::Application.routes.draw do
+  get "users/new"
+
+  match '/signup', :to => 'users#new'
+  
   match '/shop',      :to => 'pages#shop'
   match '/account',   :to => 'pages#account'
-  match '/login',     :to => 'pages#login'
   
   root :to => 'pages#home'
 
