@@ -7,9 +7,9 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Home")
   end
 
-  it "should have a Shop page at '/shop'" do
-    get '/shop'
-    response.should have_selector('title', :content => "Shop")
+  it "should have a Profile page at '/profile'" do
+    get '/profile'
+    response.should have_selector('title', :content => "Profile")
   end
 
   it "should have an Account page at '/account'" do

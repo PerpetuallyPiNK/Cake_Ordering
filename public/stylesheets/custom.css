@@ -1,8 +1,8 @@
 .container {
+	background-image: url('../images/crumpledWhite.jpg');
 }
 
 body {
-	background: #000000;
 }
 
 header {

@@ -3,8 +3,8 @@ class PagesController < ApplicationController
 	@title = "Home"
   end
   
-  def shop
-	@title = "Shop"
+  def profile
+	@title = "Profile"
   end
 
   def account

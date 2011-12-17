@@ -1,11 +1,9 @@
 CakeOrdering::Application.routes.draw do
-  get "users/new"
-
+  resources :users
+  
   match '/signup',    :to => 'users#new'
-  
-  match '/shop',      :to => 'pages#shop'
+  match '/profile',   :to => 'pages#profile'
   match '/account',   :to => 'pages#account'
-  
   root                :to => 'pages#home'
 
   # The priority is based upon order of creation:

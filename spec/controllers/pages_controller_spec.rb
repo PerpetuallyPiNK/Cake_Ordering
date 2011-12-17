@@ -16,16 +16,16 @@ describe PagesController do
     end
   end
 
-  describe "GET 'shop'" do
+  describe "GET 'profile'" do
     it "should be successful" do
-      get 'shop'
+      get 'profile'
       response.should be_success
     end
 
     it "should have the right title" do
-      get 'shop'
+      get 'profile'
       response.should have_selector("title",
-                        :content => "Cakes Galore | Shop")
+                        :content => "Cakes Galore | Profile")
     end
   end
 
